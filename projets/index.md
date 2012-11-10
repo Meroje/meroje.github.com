@@ -1,9 +1,9 @@
 ---
-title: Projects
+title: Projets
 layout: default
 ---
 
-Projects
+Projets
 ========
 
 This page lists some projects I've done outside of work. You can check out the

@@ -24,7 +24,7 @@
 
 		</script>
 	</head>
-	<body id="{{ page.title | downcase | replace ' ', '-' }}-page">
+	<body id="blog-page">
 		<div id="wrapper">
 			<header id="header">
 				<div class="centered">
@@ -64,6 +64,10 @@
 						</div>
 					</div>
 					<section class="nine columns">
+						<h1 id="blog"><a href="/blog">Blog</a></h1>
+
+						<span class="date">{{ page.date | localize: "%b %e<br>%Y" }}</span>
+						<h2 id="{{ page.title | downcase | replace ' ', '-' }}">{{ page.title }}</h2>
 						{{ content }}
 					</section>
 				</div>
@@ -114,8 +118,5 @@
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		{% if page.title == 'Projets' %}
-			{% include project_slider.html %}
-		{% endif %}
 	</body>
 </html>

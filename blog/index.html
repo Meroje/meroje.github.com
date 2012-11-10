@@ -1,0 +1,23 @@
+---
+title: Blog
+layout: default
+---
+
+<h1 id="blog"><a href="/blog">Blog</a></h1>
+
+{% for post in site.posts %}
+{% unless post.draft %}
+
+<span class="date">{{ post.date | localize: "%b %e<br>%Y" }}</span>
+<h2 id="{{ post.title | downcase | replace ' ', '-' }}"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
+{% unless post.description %}
+
+<p>{{ post.content }}</p>
+{% else %}
+<p>{{ post.description }}</p>
+<p><a href="{{ post.url }}">Lire la suite</a></p>
+
+{% endunless %}
+{% endunless %}
+{% endfor %}

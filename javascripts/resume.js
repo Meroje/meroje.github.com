@@ -129,7 +129,7 @@
 	function hideSummary() {
 		summarizeBtn.disabled = true;
 		isSummarized = false;
-		summarizeBtn.innerHTML = 'I\'m Lazy';
+		summarizeBtn.innerHTML = 'Trop long';
 		removeSummaryEls();
 		removeEl(byId('title-clone'));
 		setTimeout(function(){
@@ -140,7 +140,7 @@
 	function showSummary() {
 		summarizeBtn.disabled = true;
 		isSummarized = true;
-		summarizeBtn.innerHTML = 'Show content';
+		summarizeBtn.innerHTML = 'Trop court';
 		absolutizeSummaryEls();
 		showSummaryEls();
 	}

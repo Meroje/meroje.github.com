@@ -1,16 +1,11 @@
-Hi, I'm Tom
-===========
+Bonjour !
+=========
 
-My name is Tom Broerse. I'm a full stack web application developer living in
-Melbourne, Australia. 
+Je suis un jeune développeur amateur de 18ans passionné par le web et les nouvelles technologies.
 
-I've been building for the web since the late nineties when I first booted 
-MS FrontPage to create a website, complete with blink and marquee tags, to
-publish music I made with a few high school friends.
+Depuis 2005 j'apprend seul et mène une veille permanente.
+C'est pourquoi je veux travailler avec vous, pour apporter mon expérience et apprendre de votre entreprise.
 
-Nowadays, I work as a web development team leader at 
-[Infoxchange Australia](http://www.infoxchange.net.au "Infoxchange Australia website"), 
-coding for social justice.
+Je souhaite aujourd'hui me réorienter et en faire mon avenir après un cursus en génie civil, ma première passion.
 
-In my free time I enjoy surfing, soccer and occasionally writing
-code and playing around with new web technologies.
+Le dynamisme et l'évolution constante des technologies ne cessent de motiver mon apprentissage, et ceci avec la méthodologie propre à la programmation ont mené à ce choix de réorientation.

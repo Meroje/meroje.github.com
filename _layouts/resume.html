@@ -3,7 +3,7 @@
 	<head>
 		<meta content="text/html; charset=utf-8" http-equiv="content-type">
 		<meta content="width=device-width, initial-scale=1.0" name="viewport">
-		<title>{{ page.title }} | Tom Broerse</title>
+		<title>{{ page.title }} | Jérôme Foray</title>
 		<link href="../stylesheets/skin.css" rel="stylesheet">
 		<link rel="shortcut icon" href="/images/favicon.ico">
 		<link href="http://fonts.googleapis.com/css?family=Bitter:400,700,400italic" rel="stylesheet" type="text/css">
@@ -11,7 +11,7 @@
 		<script type="text/javascript">
 
 			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-34226094-1']);
+			_gaq.push(['_setAccount', 'UA-29903530-1']);
 			_gaq.push(['_trackPageview']);
 
 			(function() {
@@ -31,14 +31,14 @@
 							<ul class="small secondary button-group radius">
 								<li>
 									<div href="#" class="small secondary button dropdown radius">
-										Download As...
+										Télécharger...
 										<ul>
-											<li><a href="/downloads/tom_broerse_resume.pdf" download>PDF</a></li>
-											<li><a href="/downloads/tom_broerse_resume.md" download>Plain Text</a></li>
+											<li><a href="{{ page.pdf_version }}" download>PDF</a></li>
+											<li><a href="{{ page.plain_text_version }}" download>Texte</a></li>
 										</ul>
 									</div>
 								</li>
-								<li><a href="#" id="summarize" style="display:none;" class="small secondary button radius">I'm lazy</a></li>
+								<li><a href="#" id="summarize" style="display:none;" class="small secondary button radius">Trop long</a></li>
 							</ul>
 						</div>
 						<div class="seven columns">
@@ -46,7 +46,7 @@
 								<nav role="navigation">
 									<dl class="tabs">
 										<dd>
-											<a href="/">&lt;&lt; Back to blog</a>
+											<a href="/">&lt;&lt; Retour au blog</a>
 										</dd>
 									</dl>
 								</nav>
