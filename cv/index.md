@@ -8,8 +8,8 @@ plain_text_version: /downloads/jerome_foray_cv.md
 Jérôme Foray
 ============
 
-* <contact@foray-jero.me> 
-* <http://foray-jero.me> 
+* <contact@foray-jero.me>
+* <http://foray-jero.me>
 * (+33) 6 8863 9562
 
 
@@ -31,7 +31,7 @@ Compétences
 
 * _Connaissance approfondie de PHP, CSS/HTML, Javascript, Linux_, PostgreSQL,
   GIT, Apache
-* _Bonne compréhension de Sass/Compass, Less, Python/Flask, Bash/Zsh, 
+* _Bonne compréhension de Sass/Compass, Less, Python/Flask, Bash/Zsh,
    JQuery_, Jenkins
 * _Familier avec Ruby (on Rails), MySQL, OOCSS_,
   Plateformes Cloud, Java

@@ -1,14 +1,14 @@
 /**
  * This script provides the functionality for the "Lazy" button
  * on the resume page of tom.broerse.me.
- * 
+ *
  * This wasn't written by me, just altered. Credits to:
  * https://github.com/maxim/maxim.github.com
- * 
- * TODO: 
+ *
+ * TODO:
  * Properly fork above-mentioned repo on GitHub and share alike...
  * Port to JQuery to avoid having to load additional animation library
- */ 
+ */
 (function(){
 	function byId(id) {
 		return (typeof id === 'string' ? document.getElementById(id) : id);
@@ -22,8 +22,8 @@
 		}
 	}
 
-	var 
-		getComputedStyle = function(el) { return el.style; }, 
+	var
+		getComputedStyle = function(el) { return el.style; },
 		view = document.defaultView;
 
 	if (view && view.getComputedStyle) {
@@ -34,11 +34,11 @@
 	}
 
 	function getOffset(el, direction) {
-		var 
+		var
 			offsetProp = 'offset' + (direction.charAt(0).toUpperCase() + direction.slice(1)),
 			offsetValue = el[offsetProp],
 			cs;
-			
+
 		while ((el = el.offsetParent) && (cs = getComputedStyle(el))) {
 			offsetValue += el[offsetProp];
 		}
@@ -49,7 +49,7 @@
 	function absolutizeSummaryEls() {
 		var emEls = document.getElementsByTagName('em');
 		for (var i = 0, len = emEls.length; i < len; i++) {
-			var 
+			var
 				left = getOffset(emEls[i], 'left'),
 				top = getOffset(emEls[i], 'top'),
 				clone = emEls[i].cloneNode(true);
@@ -75,13 +75,13 @@
 		titleClone.id = 'title-clone';
 		document.body.appendChild(titleClone);
 	}
-  
+
 	function centerElementAt(element, top) {
 		element.style.left = '50%';
 		element.style.marginLeft = -(element.offsetWidth / 2) + 'px';
 		emile(element, 'top:' + top + 'px', { duration: 500 });
 	}
-  
+
 	function showSummaryEls() {
 		var top = 180, animationInterval = 100;
 		emile('content', 'opacity:0', {
@@ -98,7 +98,7 @@
 				}, animationInterval);
 			}});
 		}
-  
+
 	function removeSummaryEls() {
 		var ems = [ ];
 		for (var i = 0, els = document.body.childNodes, len = els.length; i < len; i++) {
@@ -109,7 +109,7 @@
 		(function(){
 			if (ems.length) {
 				var el = ems.shift();
-				emile(el, 'left:-500px', { 
+				emile(el, 'left:-500px', {
 					after: (function(el){
 						return function() {
 							removeEl(el);
@@ -122,21 +122,21 @@
 			}
 		})();
 	}
-  
+
 	var summarizeBtn = byId('summarize');
 	var isSummarized = false;
 
 	function hideSummary() {
 		summarizeBtn.disabled = true;
 		isSummarized = false;
-		summarizeBtn.innerHTML = 'Trop long';
+		summarizeBtn.innerHTML = 'TL;DR';
 		removeSummaryEls();
 		removeEl(byId('title-clone'));
 		setTimeout(function(){
 			emile('content', 'opacity:1', { duration: 500 });
 		}, 700);
 	}
-  
+
 	function showSummary() {
 		summarizeBtn.disabled = true;
 		isSummarized = true;
@@ -144,7 +144,7 @@
 		absolutizeSummaryEls();
 		showSummaryEls();
 	}
-  
+
 	summarizeBtn.style.display = '';
 	summarizeBtn.onclick = function() {
 		if (isSummarized) {

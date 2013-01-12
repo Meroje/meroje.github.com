@@ -3,3 +3,8 @@ permalink: /blog/:title
 markdown: kramdown
 pdftool: /Applications/wkhtmltopdf.app/Contents/MacOS/wkhtmltopdf --print-media-type --zoom 0.83
 exclude: README.md
+markdown: redcarpet2
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+embedly:
+  api_key: df8f3e2ee8f411e0a7964040d3dc5c07

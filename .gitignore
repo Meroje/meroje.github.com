@@ -1,3 +1,2 @@
 _site/
-*~
-*.kate-swp
+_cache/
