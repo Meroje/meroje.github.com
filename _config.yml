@@ -1,6 +1,5 @@
 pygments: true
 permalink: /blog/:title
-markdown: kramdown
 pdftool: /Applications/wkhtmltopdf.app/Contents/MacOS/wkhtmltopdf --print-media-type --zoom 0.83
 exclude: ["README.md", "tasks"]
 markdown: redcarpet2
