@@ -6,7 +6,7 @@ layout: default
 Projets
 ========
 
-Vous trouverez listés sur cette page quelques-uns de mes projets. La plupart peuvent être consultés sur ma [page github](http://github.com/Meroje).
+Vous trouverez listés sur cette page quelques-uns de mes projets. Mes projets personnels peuvent être consultés sur ma [page github](http://github.com/Meroje).
 
 
 <div class="project">
@@ -32,45 +32,15 @@ Vous trouverez listés sur cette page quelques-uns de mes projets. La plupart pe
 
 	<img src="/images/projets/saudara.png">
 
-	<p>J'ai apporté mon aide sur ce projet afin de rendre le système multilangues</p>
+	<p>J'ai apporté mon aide sur ce projet afin de rendre le système multilangues. La difficulté d'un tel système repose sur le choix du système de gestion des traductions.</p>
+
+	<p>GetText représente toujours un candidat idéal, car l'extension fournit de bonnes performances. Cependant la gestion des traductions pose un problème car impossible depuis une interface en ligne. Compte tenu du volume de visites et du nombre de traductions, nous avons choisis de placer les traductions en base de donnée, la récupération d'une traduction se faisant par identifiant unique à chaque groupe de traductions.</p>
 
 	<ul>
 		<li>Developed in 2005.</li>
 		<li>Largely redone in 2009</li>
 		<li>~ 350 users</li>
 		<li><a target="blank" href="http://saudara-home.com">Voir le site</a></li>
-	</ul>
-
-</div>
-<div class="project">
-
-	<h1></h1>
-
-	<img src="/images/projets/hpe.png">
-
-	<p></p>
-
-	<ul>
-		<li>Developed in 2003.</li>
-		<li>Active until 2005</li>
-		<li>~ 50 users</li>
-		<li><a target="blank" href="http://www.hpe.nl">Visit the company website</a></li>
-	</ul>
-
-</div>
-<div class="project">
-
-	<h1></h1>
-
-	<img src="/images/projets/xplizit_com.png">
-
-	<p></p>
-
-	<ul>
-		<li>Developed in 2003.</li>
-		<li>Active until 2005</li>
-		<li>~ 2500 downloads/month</li>
-		<li><a target="blank" href="http://www.xplizit.com">Visit the current website</a></li>
 	</ul>
 
 </div>
