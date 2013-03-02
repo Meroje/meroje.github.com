@@ -6,82 +6,71 @@ layout: default
 Projets
 ========
 
-This page lists some projects I've done outside of work. You can check out the
-code behind the non-embarrassing stuff on my 
-[GitHub account](http://github.com/tombb).
+Vous trouverez listés sur cette page quelques-uns de mes projets. La plupart peuvent être consultés sur ma [page github](http://github.com/Meroje).
 
 
-<div markdown="1" class="project">
+<div class="project">
 
-Outlook 365 Notifier
---------------------
+	<h1>Quoi de Bref ?</h1>
 
-<img src="/images/projects/outlook365_notifier.png">
+	<img src="/images/projets/quoidebref.png">
 
-A Chrome browser extension, actively maintained, that provides some handy 
-extra functionality for Microsoft Outlook 365 users. Displays number of
-unread emails, provides desktop notifications and enables full version of
-the web app on Linux.
+	<p>Site réalisé en Décembre 2011 à la sortie du framework <a href="http://laravel.com">laravel</a> en version 2 afin de me familiariser avec celui-ci. Les visiteurs sont invités à poster une petite histoire sur le modèle de la série télévisée "Bref".</p>
 
-* Released in August 2012
-* Actively maintained
-* ~ 400 users
-* [Visit the website](https://chrome.google.com/webstore/detail/dhfemhokeipigjjdopkanibcilnbbjpf)
-* [Check out the code](https://github.com/tombb)
-
+	<ul>
+		<li>Développé en 1 semaine</li>
+		<li>Maintenu en ligne pour archive</li>
+		<li>Développement flexible facilement expansible</li>
+		<li><a target="blank" href="http://quoidebref.com">Voir le site</a></li>
+		<li><a target="blank" href="https://bitbucket.org/meroje/quoidebref">Voir les sources</a></li>
+	</ul>
 
 </div>
-<div markdown="1" class="project">
+<div class="project">
 
-Derm.nl
--------
+	<h1>Saudara Home</h1>
 
-<img src="/images/projects/derm.png">
+	<img src="/images/projets/saudara.png">
 
-As a member of the Website committee of Amsterdam Student Surf Society D.E.R.M. 
-in 2005, I led the design and (re)development of the club's PHP/MySQL based
-website including events calendar, booking system for the surf van, 
-forum and private messaging system.
+	<p>J'ai apporté mon aide sur ce projet afin de rendre le système multilangues</p>
 
-* Developed in 2005.
-* Largely redone in 2009
-* ~ 350 users
-* [Visit the current website](http://www.derm.nl)
+	<ul>
+		<li>Developed in 2005.</li>
+		<li>Largely redone in 2009</li>
+		<li>~ 350 users</li>
+		<li><a target="blank" href="http://saudara-home.com">Voir le site</a></li>
+	</ul>
 
 </div>
-<div markdown="1" class="project">
+<div class="project">
 
-Couriers Scheduling System
---------------------------------
+	<h1></h1>
 
-<img src="/images/projects/hpe.png">
+	<img src="/images/projets/hpe.png">
 
-An application written in Perl/CGI with a flat file database, custom-built for
-Dutch  couriers company Holland Parcel Express to facilitate rostering 
-part-time workers. Planners could schedule delivery jobs on a calendar and
-part-time couriers could register themselves for the job.
+	<p></p>
 
-* Developed in 2003.
-* Active until 2005
-* ~ 50 users
-* [Visit the company website](http://www.hpe.nl)
+	<ul>
+		<li>Developed in 2003.</li>
+		<li>Active until 2005</li>
+		<li>~ 50 users</li>
+		<li><a target="blank" href="http://www.hpe.nl">Visit the company website</a></li>
+	</ul>
 
 </div>
-<div markdown="1" class="project">
+<div class="project">
 
-Xplizit.com
------------
+	<h1></h1>
 
-<img src="/images/projects/xplizit_com.png">
+	<img src="/images/projets/xplizit_com.png">
 
-I was the founder of this online record label, a small 
-group of producers from around the globe publishing high quality dance music 
-online for free. The site was built in Perl/CGI with a flat file database. It
-contained a member section, tracks database, rating system and more.
+	<p></p>
 
-* Developed in 2003.
-* Active until 2005
-* ~ 2500 downloads/month
-* [Visit the current website](http://www.xplizit.com)
+	<ul>
+		<li>Developed in 2003.</li>
+		<li>Active until 2005</li>
+		<li>~ 2500 downloads/month</li>
+		<li><a target="blank" href="http://www.xplizit.com">Visit the current website</a></li>
+	</ul>
 
 </div>
