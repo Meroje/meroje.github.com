@@ -37,9 +37,8 @@ Vous trouverez listés sur cette page quelques-uns de mes projets. Mes projets p
 	<p>GetText représente toujours un candidat idéal, car l'extension fournit de bonnes performances. Cependant la gestion des traductions pose un problème car impossible depuis une interface en ligne. Compte tenu du volume de visites et du nombre de traductions, nous avons choisis de placer les traductions en base de donnée, la récupération d'une traduction se faisant par identifiant unique à chaque groupe de traductions.</p>
 
 	<ul>
-		<li>Developed in 2005.</li>
-		<li>Largely redone in 2009</li>
-		<li>~ 350 users</li>
+		<li>Mis en ligne fin 2012</li>
+		<li>~ 230 traductions</li>
 		<li><a target="blank" href="http://saudara-home.com">Voir le site</a></li>
 	</ul>
 
