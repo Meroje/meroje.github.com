@@ -1,7 +1,7 @@
 pygments: true
 permalink: /blog/:title
 pdftool: wkhtmltopdf --print-media-type --zoom 0.83
-exclude: ["README.md", "tasks"]
+exclude: ["README.md", "Rakefile"]
 markdown: redcarpet2
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]

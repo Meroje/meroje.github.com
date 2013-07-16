@@ -1,2 +1,0 @@
-#!/usr/bin/env sh
-jekyll && rsync -avz --delete _site/ flex:/var/www/foray-jero.me

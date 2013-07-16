@@ -43,3 +43,14 @@ Vous trouverez listés sur cette page quelques-uns de mes projets. Mes projets p
 	</ul>
 
 </div>
+<div class="project">
+
+	<h1>Fourniture d'un formulaire de contact</h1>
+
+	<p>Ce formulaire est modulable et doit être réutilisé facilement ( en quelques lignes ). Ce formulaire filtre les entrées et envoi à l'administrateur les informations de contact.</p>
+
+	<ul>
+		<li>Fourniture 2012</li>
+	</ul>
+
+</div>
