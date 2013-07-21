@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="content-type">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<title>PHP rencontre l'elegance et la beaute, intro a Laravel 3.0 | Jérôme Foray</title>
+		<link href="/stylesheets/skin.css" rel="stylesheet">
+		<link rel="stylesheet" href="/stylesheets/pygment_trac.css">
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link href="http://feeds.feedburner.com/inside-meroje" rel="alternate" type="application/atom+xml">
+		<link href="http://fonts.googleapis.com/css?family=Bitter:400,700,400italic" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+		<script type="text/javascript">
+
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-29903530-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+	</head>
+	<body id="blog-page">
+		<div id="wrapper">
+			<header id="header">
+				<div class="centered">
+					<div class="row">
+						<div class="three columns">
+							<a href="/">
+								<img alt="Jérôme Foray" id="avatar" src="/images/jerome.png">
+							</a>
+						</div>
+						<div class="nine columns">
+							<div id="topnav" class="hide-for-small">
+								<nav role="navigation">
+									<dl class="tabs mobile">
+										<dd>
+											<a href="/apropos">A propos</a>
+										</dd>
+										<dd>
+											<a href="/blog">Blog</a>
+										</dd>
+										<dd>
+											<a href="/projets">Projets</a>
+										</dd>
+										<dd>
+											<a href="/cv">Curriculum Vitæ</a>
+										</dd>
+									</dl>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="centered" id="content">
+				<div class="row">
+					<div class="three columns">
+						<div class="row hide-for-small">
+						</div>
+					</div>
+					<section class="nine columns">
+						<h1 id="blog"><a href="/blog">Blog</a></h1>
+
+						<span class="date">fév. 22<br>2012</span>
+						<h2 id="php rencontre l'elegance et la beaute, intro a laravel 3.0">PHP rencontre l'elegance et la beaute, intro a Laravel 3.0</h2>
+						<h3 id="toc_4">Il est là !</h3>
+
+<p>Laravel est un framework dont la motivation première est la <em>beauté</em> du code.
+Cette nouvelle version, qui arrive moins d&#39;un an après la création de ce framework apporte tout son lot de nouveautées, toutes plus intéressantes les unes que les autres. On y trouvera entre autres les migrations de base de données, l&#39;intégration native des tests unitaires et les modules.</p>
+
+<p>Toutes les notions mentionnées ici sont très bien <a href="http://laravel.com/docs">documentées</a></p>
+
+<h3 id="toc_5">Les routes</h3>
+
+<p>Voila à quoi ressemble l&#39;utilisation la plus basique de Laravel.</p>
+
+<h3 id="toc_6">Les sessions</h3>
+
+<p>Les sessions servent à faire transiter des données entre les pages, Laravel en tire très avantageusement l&#39;utilité.</p>
+
+<h3 id="toc_7">Les modules (aka. Bundles)</h3>
+
+<p>La plus importante innovation apportée par cette version est incontestablement le retour des modules avec une nouvelle intégration bien plus efficace que la précédente.
+Un module fonctionne exactement comme l&#39;application principale (votre application est en réalité un module), il devient ainsi très aisé de partager un code à la communautée.
+<a href="http://bundles.laravel.com/">Retrouvez les modules ici</a> et <a href="http://laravel.com/docs/bundles">apprenez en plus ici</a></p>
+
+<h3 id="toc_8">Les migrations</h3>
+
+<p>Les migrations permettent de définir le schéma de notre base de donnée, et de modifier celui-ci. Il est ainsi possible d&#39;ajouter une colonne à une table, par exemple à partir d&#39;un module afin d&#39;étendre le profil utilisateur.</p>
+
+<p><a href="http://laravel.com/docs/database/schema">Retrouvez les migrations ici</a></p>
+
+<h3 id="toc_9">La ligne de commande : Artisan</h3>
+
+<p>Laravel se dote d&#39;un outil en ligne de commande qui permet de faciliter un bon nombre d&#39;intéractions avec l&#39;application, comme lancer des tests, installer un module, ou exécuter une migration :</p>
+
+<p><a href="http://laravel.com/docs/artisan/commands">Retrouvez artisan ici</a></p>
+
+<h3 id="toc_10">Les tests unitaires</h3>
+
+<p>Laravel propose une intégration inédite et très efficace de PHPUnit, rendant possible de lancer aisément les tests de votre application, d&#39;un module, du framework, ou encore de l&#39;ensemble.</p>
+
+<p><a href="http://laravel.com/docs/testing">Retrouvez les tests ici</a></p>
+
+<h3 id="toc_11">Les événements</h3>
+
+<p>Un système de gestion des événements simple est inclut dans Laravel, permettant de construire une application encore plus flexible.</p>
+
+<h3 id="toc_12">Mangez-en !</h3>
+
+<p>J&#39;espère que cet aperçu des nouveautés vous à donné envie de découvrir Laravel plus en profondeur.
+Merci de m&#39;avoir lu!</p>
+
+<p><a href="http://forrst.com/posts/PHP_meet_elegance_Introducing_Laravel_3_0-dfi">Source</a></p>
+
+					</section>
+				</div>
+			</div>
+			<div class="show-for-small" id="bottomnav" >
+				<nav role="navigation">
+					<dl class="tabs mobile">
+						<dd>
+							<a href="/apropos">A propos</a>
+						</dd>
+						<dd>
+							<a href="/blog">Blog</a>
+						</dd>
+						<!-- <dd>
+							<a href="/projets">Projets</a>
+						</dd> -->
+						<dd>
+							<a href="/cv">Curriculum Vitæ</a>
+						</dd>
+					</dl>
+				</nav>
+			</div>
+			<div class="push"></div>
+		</div>
+		<footer class="site-footer centered">
+			<div class="row">
+				<div class="eight columns">
+					<ul class="feeds">
+						<li>
+							<a href="http://feeds.feedburner.com/inside-meroje" rel="rss"><img src="/images/rss.png"></a>
+						</li>
+						<li>
+							<a href="http://github.com/meroje" rel='me'><img src="/images/github.png"></a>
+						</li>
+						<li>
+							<a href="http://twitter.com/meroje01" rel='me'><img src="/images/twitter.png"></a>
+						</li>
+						<li>
+							<a href="https://alpha.app.net/meroje" rel='me'><img src="/images/appnet.png"></a>
+						</li>
+					</ul>
+				</div>
+				<div id="copyright" class="four columns align-right">
+					<span class="copyright">
+						&copy; 2012
+					</span>
+					<a href="http://foray-jero.me">Jérôme Foray</a>
+				</div>
+			</div>
+		</footer>
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<img src="http://api.stathat.com/c?ukey=NDIzOCA12MOrTTCHIh4gk7GOhOPe&key=gDVfN1Mly_EnjwnHsfaGiCBKVWZL&count=13" style="display:none;" width="1" height="1"/>
+	</body>
+</html>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Inside Meroje</title>
+ <link href="http://foray-jero.me/feed/" rel="self"/>
+ <link href="http://foray-jero.me/"/>
+ <updated>2013-07-21T11:24:37+02:00</updated>
+ <id>hhttp://foray-jero.me/</id>
+ <author>
+   <name>Jérôme Foray</name>
+   <email>contact@foray-jero.me</email>
+ </author>
+ 
+ <entry>
+   <title>Pourquoi Bootstrap est devenu un fléau</title>
+   <link href="http://foray-jero.me/blog/pourquoi-bootstrap-est-devenu-un-fleau"/>
+   <updated>2012-07-06T00:00:00+02:00</updated>
+   <id>http://foray-jero.me/blog/pourquoi-bootstrap-est-devenu-un-fleau</id>
+   <content type="html">&lt;p&gt;J&amp;#39;exprime dans cet article une opinion strictement personnelle qui peut être partagée ou non par chacun, merci de repecter ce fait si vous choississez de commenter.&lt;/p&gt;
+
+&lt;h3 id=&quot;toc_13&quot;&gt;Boostrap un fléau ?&lt;/h3&gt;
+
+&lt;p&gt;Tout d&amp;#39;abord, et dans un soucis de clarté, il faut bien comprendre que je considère Bootstrap comme un outil très pratique qui fait bien le travail pour lequel il à été conçu.&lt;br&gt;
+Je ne reproche pas ici à Bootstrap ces qualités, le problème que je relate ici est lié à l&amp;#39;utilisateur.&lt;/p&gt;
+
+&lt;h4 id=&quot;toc_14&quot;&gt;Le layout&lt;/h4&gt;
+
+&lt;p&gt;Depuis l&amp;#39;arrivée de Bootstrap, son utilisation n&amp;#39;a fait que croître et de plus en plus de sites en production l&amp;#39;utilisent &lt;strong&gt;saveur nature&lt;/strong&gt;.&lt;br&gt;
+De fait, tous ces sites ont ainsi la même apparence (au détail près de la mise en page) et réutilisent très souvent l&amp;#39;un des layouts proposées par défaut.&lt;br&gt;
+Un détail étrange de la documentation me donne l&amp;#39;impression que Bootstrap n&amp;#39;est pas recommandé pour une utilisation &lt;em&gt;hors pistes&lt;/em&gt;. C&amp;#39;est la raison pour laquelle je préfère les autres frameworks, et peut-être l&amp;#39;une des raison de la réutilisation massive du layout.&lt;/p&gt;
+
+&lt;h4 id=&quot;toc_15&quot;&gt;Les styles&lt;/h4&gt;
+
+&lt;p&gt;Le web se retrouve en état de surpopulation de clones Bootstrap auxquels aucun effort particulier de style n&amp;#39;a été apporté.&lt;br&gt;
+Twitter à tenté d&amp;#39;apporter une solution avec le passage à Less, mais ce n&amp;#39;est pas suffisant sans outil adapté à la personnalisation via les variables fournies.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nota&lt;/strong&gt;: il existe des outils qui ont étés conçus par la communauté mais il y a un problème récurrent d&amp;#39;ergonomie. &lt;em&gt;Une telle quantité de colorpickers n&amp;#39;est pas ergonomique.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;toc_16&quot;&gt;La communication&lt;/h4&gt;
+
+&lt;p&gt;C&amp;#39;est là le point essentiel de ma réflexion, il manque un aspect que je juge capital dans la documentation de Bootstrap : &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Bootstrap à originellement été conçus pour faciliter le prototypage d&amp;#39;un site web, afin d&amp;#39;avoir un aperçu de qualité du produit fini.&lt;br&gt;
+Il reste toutefois possible d&amp;#39;utiliser Bootstrap pour la création d&amp;#39;un produit fini, mais il faut y apporter des efforts de personnalisation des styles selon chaque cas.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;toc_17&quot;&gt;Comment peut-on y remédier ?&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;La solution à troll : il faut tuer Bootstrap&lt;/li&gt;
+&lt;li&gt;Apporter des précisions sur le bon usage de Bootstrap dans sa documentation (un guide pas à pas sur la personnalisation peut apporter une grande aide)&lt;/li&gt;
+&lt;li&gt;Faire évoluer Bootstrap (ceci fera l&amp;#39;objet d&amp;#39;un prochain article)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Nota final&lt;/strong&gt;: Bootstrap reste à mes yeux un outil pratique pour un prototypage ou pour la rédaction d&amp;#39;une documentation (ou autre outil interne au développement en cours) .&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Kickstrap Twitter Boostrap Evolved</title>
+   <link href="http://foray-jero.me/blog/kickstrap-twitter-boostrap-evolved"/>
+   <updated>2012-06-24T00:00:00+02:00</updated>
+   <id>http://foray-jero.me/blog/kickstrap-twitter-boostrap-evolved</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
+   <title>Comment j'ai resolu le probleme de la panne d'oreiller</title>
+   <link href="http://foray-jero.me/blog/comment-jai-resolu-le-probleme-de-la-panne-doreiller"/>
+   <updated>2012-03-29T00:00:00+02:00</updated>
+   <id>http://foray-jero.me/blog/comment-jai-resolu-le-probleme-de-la-panne-doreiller</id>
+   <content type="html">&lt;blockquote&gt;
+&lt;p&gt;Sleepyti.me is a bedtime calculator that can help you calculate when to fall asleep. By counting backwards in sleep cycles, sleepyti.me has the ability to help you wake up refreshed, instead of feeling groggy. Sleepyti.me can also help you figure out what time to set your alarm if you are going to sleep at that moment.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://sleepyti.me&quot;&gt;Sleepyti.me&lt;/a&gt; est une application qui permet très simplement de calculer votre heure de coucher en fonction de votre heure de lever, ou bien de calculer à quelle heure vous réveiller si vous alliez au lit &amp;quot;maintenant&amp;quot;.&lt;/p&gt;
+
+&lt;p&gt;Ce calcul est très simple : il suffit de compter les cycles de sommeil afin de se réveiller entre deux, ce qui permet d&amp;#39;être en forme et d&amp;#39;éviter la panne.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>PHP rencontre l'elegance et la beaute, intro a Laravel 3.0</title>
+   <link href="http://foray-jero.me/blog/php-rencontre-lelegance-et-la-beaut-intro-a-laravel-3.0"/>
+   <updated>2012-02-22T00:00:00+01:00</updated>
+   <id>http://foray-jero.me/blog/php-rencontre-lelegance-et-la-beaut-intro-a-laravel-3.0</id>
+   <content type="html">&lt;h3 id=&quot;toc_4&quot;&gt;Il est là !&lt;/h3&gt;
+
+&lt;p&gt;Laravel est un framework dont la motivation première est la &lt;em&gt;beauté&lt;/em&gt; du code.
+Cette nouvelle version, qui arrive moins d&amp;#39;un an après la création de ce framework apporte tout son lot de nouveautées, toutes plus intéressantes les unes que les autres. On y trouvera entre autres les migrations de base de données, l&amp;#39;intégration native des tests unitaires et les modules.&lt;/p&gt;
+
+&lt;p&gt;Toutes les notions mentionnées ici sont très bien &lt;a href=&quot;http://laravel.com/docs&quot;&gt;documentées&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;toc_5&quot;&gt;Les routes&lt;/h3&gt;
+
+&lt;p&gt;Voila à quoi ressemble l&amp;#39;utilisation la plus basique de Laravel.&lt;/p&gt;
+
+&lt;h3 id=&quot;toc_6&quot;&gt;Les sessions&lt;/h3&gt;
+
+&lt;p&gt;Les sessions servent à faire transiter des données entre les pages, Laravel en tire très avantageusement l&amp;#39;utilité.&lt;/p&gt;
+
+&lt;h3 id=&quot;toc_7&quot;&gt;Les modules (aka. Bundles)&lt;/h3&gt;
+
+&lt;p&gt;La plus importante innovation apportée par cette version est incontestablement le retour des modules avec une nouvelle intégration bien plus efficace que la précédente.
+Un module fonctionne exactement comme l&amp;#39;application principale (votre application est en réalité un module), il devient ainsi très aisé de partager un code à la communautée.
+&lt;a href=&quot;http://bundles.laravel.com/&quot;&gt;Retrouvez les modules ici&lt;/a&gt; et &lt;a href=&quot;http://laravel.com/docs/bundles&quot;&gt;apprenez en plus ici&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;toc_8&quot;&gt;Les migrations&lt;/h3&gt;
+
+&lt;p&gt;Les migrations permettent de définir le schéma de notre base de donnée, et de modifier celui-ci. Il est ainsi possible d&amp;#39;ajouter une colonne à une table, par exemple à partir d&amp;#39;un module afin d&amp;#39;étendre le profil utilisateur.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://laravel.com/docs/database/schema&quot;&gt;Retrouvez les migrations ici&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;toc_9&quot;&gt;La ligne de commande : Artisan&lt;/h3&gt;
+
+&lt;p&gt;Laravel se dote d&amp;#39;un outil en ligne de commande qui permet de faciliter un bon nombre d&amp;#39;intéractions avec l&amp;#39;application, comme lancer des tests, installer un module, ou exécuter une migration :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://laravel.com/docs/artisan/commands&quot;&gt;Retrouvez artisan ici&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;toc_10&quot;&gt;Les tests unitaires&lt;/h3&gt;
+
+&lt;p&gt;Laravel propose une intégration inédite et très efficace de PHPUnit, rendant possible de lancer aisément les tests de votre application, d&amp;#39;un module, du framework, ou encore de l&amp;#39;ensemble.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://laravel.com/docs/testing&quot;&gt;Retrouvez les tests ici&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;toc_11&quot;&gt;Les événements&lt;/h3&gt;
+
+&lt;p&gt;Un système de gestion des événements simple est inclut dans Laravel, permettant de construire une application encore plus flexible.&lt;/p&gt;
+
+&lt;h3 id=&quot;toc_12&quot;&gt;Mangez-en !&lt;/h3&gt;
+
+&lt;p&gt;J&amp;#39;espère que cet aperçu des nouveautés vous à donné envie de découvrir Laravel plus en profondeur.
+Merci de m&amp;#39;avoir lu!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://forrst.com/posts/PHP_meet_elegance_Introducing_Laravel_3_0-dfi&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Commentez vos RegEx avec CoffeeScript</title>
+   <link href="http://foray-jero.me/blog/commentez-vos-regex-avec-coffeescript"/>
+   <updated>2012-02-08T00:00:00+01:00</updated>
+   <id>http://foray-jero.me/blog/commentez-vos-regex-avec-coffeescript</id>
+   <content type="html">&lt;p&gt;Javascript, et par extension coffeescript nous permettent de réaliser, entres autres, une pré validation des formulaires côté client, pour améliorer l&amp;#39;expérience de celui-ci. Pour cela nous disposons d&amp;#39;un outil très utile : les regex (ou expressions régulières).&lt;/p&gt;
+
+&lt;p&gt;Cependant il faut bien reconnaitre que ce n&amp;#39;est pas toujours très lisible, surtout en équipe quand le collègue s&amp;#39;est chargé de ces regex.&lt;/p&gt;
+
+&lt;h3 id=&quot;toc_2&quot;&gt;Prenons l&amp;#39;exemple d&amp;#39;une validation d&amp;#39;adresse email :&lt;/h3&gt;
+
+&lt;p&gt;En regardant uniquement la première ligne, il est très dur (voir impossible pour un débutant) de comprendre ce que fait ce code.&lt;/p&gt;
+
+&lt;p&gt;Et c&amp;#39;est là que CoffeeScript nous vient en aide !&lt;/p&gt;
+
+&lt;h3 id=&quot;toc_3&quot;&gt;Même si vous n&amp;#39;utilisez pas toutes les subtilités de ce précompileur, il peut vous être très utile !&lt;/h3&gt;
+
+&lt;p&gt;Observons le même code que précedemment, cette fois ci écrit pour coffeescript :&lt;/p&gt;
+
+&lt;p&gt;Nous voyons dés le premier regard toute la différence qu&amp;#39;apporte ce compileur : &lt;em&gt;nous pouvons écrire notre regex sur plusieurs lignes&lt;/em&gt;, ce qui nous permet de commenter facilement chaque morceau de cette regex.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.elijahmanor.com/2012/02/regular-expressions-in-coffeescript-are.html&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Une page d'erreur unique pour les gouverner toutes</title>
+   <link href="http://foray-jero.me/blog/une-page-derreur-unique-pour-les-gouverner-toutes"/>
+   <updated>2012-01-31T00:00:00+01:00</updated>
+   <id>http://foray-jero.me/blog/une-page-derreur-unique-pour-les-gouverner-toutes</id>
+   <content type="html">&lt;p&gt;Ce petit code à ajouter à votre &lt;code&gt;.htaccess&lt;/code&gt; que je vous propose vous permettra de récupérer toutes les erreurs http avec le message associé, afin de savoir tout de suite à quelle erreur nous avons affaire (utile pendant un développement). Ce code peut également très bien servir de base pour gérer plus efficacement ces erreurs sur un environnement de production, pour être prévenu par email par exemple, ou tout simplement pour avoir une page &lt;a href=&quot;https://github.com/404&quot;&gt;toute jolie&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A garder sous la main donc.&lt;/p&gt;
+
+&lt;h3 id=&quot;toc_0&quot;&gt;HTACCESS&lt;/h3&gt;
+
+&lt;h3 id=&quot;toc_1&quot;&gt;PHP&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://papermashup.com/create-an-error-page-to-handle-all-errors-with-php/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+</feed>

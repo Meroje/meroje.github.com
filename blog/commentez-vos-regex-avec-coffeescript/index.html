@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="content-type">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<title>Commentez vos RegEx avec CoffeeScript | Jérôme Foray</title>
+		<link href="/stylesheets/skin.css" rel="stylesheet">
+		<link rel="stylesheet" href="/stylesheets/pygment_trac.css">
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link href="http://feeds.feedburner.com/inside-meroje" rel="alternate" type="application/atom+xml">
+		<link href="http://fonts.googleapis.com/css?family=Bitter:400,700,400italic" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+		<script type="text/javascript">
+
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-29903530-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+	</head>
+	<body id="blog-page">
+		<div id="wrapper">
+			<header id="header">
+				<div class="centered">
+					<div class="row">
+						<div class="three columns">
+							<a href="/">
+								<img alt="Jérôme Foray" id="avatar" src="/images/jerome.png">
+							</a>
+						</div>
+						<div class="nine columns">
+							<div id="topnav" class="hide-for-small">
+								<nav role="navigation">
+									<dl class="tabs mobile">
+										<dd>
+											<a href="/apropos">A propos</a>
+										</dd>
+										<dd>
+											<a href="/blog">Blog</a>
+										</dd>
+										<dd>
+											<a href="/projets">Projets</a>
+										</dd>
+										<dd>
+											<a href="/cv">Curriculum Vitæ</a>
+										</dd>
+									</dl>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="centered" id="content">
+				<div class="row">
+					<div class="three columns">
+						<div class="row hide-for-small">
+						</div>
+					</div>
+					<section class="nine columns">
+						<h1 id="blog"><a href="/blog">Blog</a></h1>
+
+						<span class="date">fév.  8<br>2012</span>
+						<h2 id="commentez vos regex avec coffeescript">Commentez vos RegEx avec CoffeeScript</h2>
+						<p>Javascript, et par extension coffeescript nous permettent de réaliser, entres autres, une pré validation des formulaires côté client, pour améliorer l&#39;expérience de celui-ci. Pour cela nous disposons d&#39;un outil très utile : les regex (ou expressions régulières).</p>
+
+<p>Cependant il faut bien reconnaitre que ce n&#39;est pas toujours très lisible, surtout en équipe quand le collègue s&#39;est chargé de ces regex.</p>
+
+<h3 id="toc_2">Prenons l&#39;exemple d&#39;une validation d&#39;adresse email :</h3>
+
+<p>En regardant uniquement la première ligne, il est très dur (voir impossible pour un débutant) de comprendre ce que fait ce code.</p>
+
+<p>Et c&#39;est là que CoffeeScript nous vient en aide !</p>
+
+<h3 id="toc_3">Même si vous n&#39;utilisez pas toutes les subtilités de ce précompileur, il peut vous être très utile !</h3>
+
+<p>Observons le même code que précedemment, cette fois ci écrit pour coffeescript :</p>
+
+<p>Nous voyons dés le premier regard toute la différence qu&#39;apporte ce compileur : <em>nous pouvons écrire notre regex sur plusieurs lignes</em>, ce qui nous permet de commenter facilement chaque morceau de cette regex.</p>
+
+<p><a href="http://www.elijahmanor.com/2012/02/regular-expressions-in-coffeescript-are.html">Source</a></p>
+
+					</section>
+				</div>
+			</div>
+			<div class="show-for-small" id="bottomnav" >
+				<nav role="navigation">
+					<dl class="tabs mobile">
+						<dd>
+							<a href="/apropos">A propos</a>
+						</dd>
+						<dd>
+							<a href="/blog">Blog</a>
+						</dd>
+						<!-- <dd>
+							<a href="/projets">Projets</a>
+						</dd> -->
+						<dd>
+							<a href="/cv">Curriculum Vitæ</a>
+						</dd>
+					</dl>
+				</nav>
+			</div>
+			<div class="push"></div>
+		</div>
+		<footer class="site-footer centered">
+			<div class="row">
+				<div class="eight columns">
+					<ul class="feeds">
+						<li>
+							<a href="http://feeds.feedburner.com/inside-meroje" rel="rss"><img src="/images/rss.png"></a>
+						</li>
+						<li>
+							<a href="http://github.com/meroje" rel='me'><img src="/images/github.png"></a>
+						</li>
+						<li>
+							<a href="http://twitter.com/meroje01" rel='me'><img src="/images/twitter.png"></a>
+						</li>
+						<li>
+							<a href="https://alpha.app.net/meroje" rel='me'><img src="/images/appnet.png"></a>
+						</li>
+					</ul>
+				</div>
+				<div id="copyright" class="four columns align-right">
+					<span class="copyright">
+						&copy; 2012
+					</span>
+					<a href="http://foray-jero.me">Jérôme Foray</a>
+				</div>
+			</div>
+		</footer>
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<img src="http://api.stathat.com/c?ukey=NDIzOCA12MOrTTCHIh4gk7GOhOPe&key=gDVfN1Mly_EnjwnHsfaGiCBKVWZL&count=13" style="display:none;" width="1" height="1"/>
+	</body>
+</html>
